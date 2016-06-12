@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'SynKit.framework'
 
-  #s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/SynKit/SynKit.framework"' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Pods/SynKitPod/Frameworks/"' }
 
 end
