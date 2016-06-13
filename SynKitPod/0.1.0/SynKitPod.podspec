@@ -24,9 +24,9 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'SynKit.framework'
 
-  s.source_files = 'SynKit.framework/Headers/SynKit.h'
+  #s.source_files = 'SynKit.framework/Headers/SynKit.h'
   
-  s.public_header_files = 'SynKit.framework/Headers/SynKit.h'
+  #s.public_header_files = 'SynKit.framework/Headers/SynKit.h'
 
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Pods/SynKitPod/Frameworks/"' }
 
