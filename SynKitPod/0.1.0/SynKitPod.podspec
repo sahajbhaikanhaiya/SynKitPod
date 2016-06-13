@@ -28,6 +28,6 @@ Pod::Spec.new do |s|
   
   #s.public_header_files = 'SynKit.framework/Headers/SynKit.h'
 
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Pods/SynKitPod/Frameworks/"' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/SynKitPod/"' }
 
 end
